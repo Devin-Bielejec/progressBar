@@ -1,7 +1,9 @@
 import React from "react";
 
-export default TaskButton = ({startTask}) => {
+const TaskButton = ({startTask}) => {
     return(
         <button onClick={startTask}>Click me!</button>
     )
 }
+
+export default TaskButton;
